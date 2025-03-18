@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #cccccc;
+}
+
+header{
+    background-color: #120323;
+    color: #97bf04;
+}
+
+h2{
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+main figure img{
+    border-bottom: 1rem solid #97bf04;
+}
+
+figure {
+    background-color: white;
+}
+
+nav, footer{
+    background-color: #d9043d;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
