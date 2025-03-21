@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+/*Website CSS*/
+
 body{
     margin: 0;
     font-family: sans-serif;
@@ -60,4 +62,15 @@ footer{
     font-size: small;
     text-align: center;
     color: white;
+}
+
+/*Media Query-Desktop*/
+@media screen and (min-width: 1000px){
+    #gallery-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    figure:last-child{
+        grid-column: span 2;
+    }
 }
