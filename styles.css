@@ -38,16 +38,18 @@ nav ul li a{
     text-decoration: none;
 }
 
-main figure img{
-    border-bottom: 10px solid #97bf04;
-    width: 650px;
-    justify-content: center;
-    align-items: center;
-}
-
 figure {
     background-color: white;
     padding: 1rem;
+    max-width: 100%;
+}
+
+figure img{
+    border-bottom: 10px solid #97bf04;
+    width: 100%;
+    max-width: 650px auto;
+    justify-content: center;
+    align-items: center;
 }
 
 nav, footer{
@@ -55,6 +57,7 @@ nav, footer{
 }
 
 footer{
+    font-size: small;
     text-align: center;
     color: white;
 }
