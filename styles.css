@@ -70,6 +70,7 @@ footer{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+    
     figure:last-child{
         grid-column: span 2;
     }
@@ -80,8 +81,8 @@ footer{
     #gallery-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin: auto;
     }
+    
     figure:last-child{
         grid-column: span 2;
     }
@@ -90,7 +91,7 @@ footer{
 /*Media Query-Phone*/
 @media screen and (max-width: 768px) {  
     nav{
-        max-width: 95%;
+        width: 100%;
         background-color: #120323;
     }
     
@@ -98,22 +99,24 @@ footer{
         width: 95%;
     }
     
-    header ul li a{
-        background-color: #d9043d;;
-        width: 95%;
-        height: 95%;
-        color: white;
-        justify-content: center;
-        text-align: center;
-        padding: 0.5rem;
+    nav ul li a{
         display: flex;
         flex-direction: row;
-        border: 2px solid #97bf04;
+        background-color: #d9043d;;
+        color: white;
+        width: 95%;
+        height: 95%;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+        border: 3px solid #97bf04;
     }
+    
     #gallery-container{
         display: grid;
         grid-template-columns: 1fr;
     }
+    
     figure:last-child{
         grid-column: span 1;
     }
