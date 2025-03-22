@@ -86,3 +86,36 @@ footer{
         grid-column: span 2;
     }
 }
+
+/*Media Query-Phone*/
+@media screen and (max-width: 768px) {  
+    nav{
+        max-width: 95%;
+        background-color: #120323;
+    }
+    
+    nav ul{
+        width: 95%;
+    }
+    
+    header ul li a{
+        background-color: #d9043d;;
+        width: 95%;
+        height: 95%;
+        color: white;
+        justify-content: center;
+        text-align: center;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        border: 2px solid #97bf04;
+    }
+    #gallery-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    figure:last-child{
+        grid-column: span 1;
+    }
+    }
+    
